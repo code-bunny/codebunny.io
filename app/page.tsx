@@ -8,8 +8,8 @@ import WidgetSponsor from '@/components/widget-sponsor'
 import WidgetBook from '@/components/widget-book'
 
 export const metadata = {
-  title: 'Home - DevSpace',
-  description: 'Page description',
+  title: 'Home - Code Bunny',
+  description: 'Code Bunny website',
 }
 
 export default async function Home() {

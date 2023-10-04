@@ -5,6 +5,7 @@ import localFont from 'next/font/local'
 import Theme from './theme-provider'
 import SideNavigation from '@/components/ui/side-navigation'
 import Header from '@/components/ui/header'
+import Footer from '@/components/ui/footer'
 
 const inter = Inter({
   subsets: ['latin'],
