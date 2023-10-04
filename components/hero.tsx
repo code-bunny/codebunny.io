@@ -26,8 +26,14 @@ export default function Hero() {
           <p className="text-lg text-slate-500 dark:text-slate-400">
             Game Designer, Photographer, Developer, and Founder of Code Bunnies Ltd. I write about coding, startups, and my journey to start a game studio.
           </p>
-          <p className="text-lg text-slate-500 dark:text-slate-400">
-            <a href>https://codebunnies.com</a>
+          <p className="mt-4 text-lg text-slate-500 dark:text-slate-400">
+            Please visit{' '}
+            <span className="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">
+              <Link href="https://codebunnies.com" aria-label="Code Bunnies Ltd">
+                https://codebunnies.com
+              </Link>
+            </span>{' '}
+             to find out more.
           </p>
         </div>
       </div>
